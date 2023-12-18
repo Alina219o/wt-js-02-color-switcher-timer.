@@ -4,7 +4,8 @@
 <button type="button" data-stop>Stop</button>
 # Завдання 2 - таймер зворотного відліку​
 Написати скрипт таймера, який здійснює зворотний відлік до певної дати. Такий таймер може використовуватися у блогах та інтернет-магазинах, сторінках реєстрації подій, під час технічного обслуговування тощо.
-<input type="text" id="datetime-picker" />
+
+### <input type="text" id="datetime-picker" />
 <button type="button" data-start>Start</button>
 
 <div class="timer">
@@ -27,12 +28,5 @@
 </div>
 
 
-const options = {
-  enableTime: true,
-  time_24hr: true,
-  defaultDate: new Date(),
-  minuteIncrement: 1,
-  onClose(selectedDates) {
-    console.log(selectedDates[0]);
-  },
+
 };
