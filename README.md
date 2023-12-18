@@ -1,7 +1,7 @@
 # wt-js-02-color-switcher-timer.
 # Завдання 1 - перемикач кольорів
-<button type="button" data-start>Start</button>
-<button type="button" data-stop>Stop</button>
+```<button type="button" data-start>Start</button>
+<button type="button" data-stop>Stop</button>```
 # Завдання 2 - таймер зворотного відліку​
 [preview](preview.gif)
 
